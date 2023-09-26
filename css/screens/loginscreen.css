@@ -37,6 +37,11 @@
   transition: border-color 0.3s ease-in-out;
 }
 
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid white;
+  transition: border-color 03s ease-in-out;
+}
+
 #login-form input::placeholder {
   font-size: 15px;
   color: rgba(48, 48, 48, 0.3);
@@ -59,6 +64,8 @@
   margin: 10px 0px;
   border: none;
   border-radius: 5px;
+  background-color: var(--yellow);
+  cursor: pointer;
 }
 
 .signup-btn {
@@ -66,12 +73,14 @@
   margin: 0px 0px;
   border: none;
   border-radius: 5px;
+  background-color: var(--yellow);
+  cursor: pointer;
 }
 
 .find-auth {
   display: block;
   text-align: center;
-  color: black;
+  color: var(--grey);
   text-decoration: none;
   font-size: 13px;
 }
