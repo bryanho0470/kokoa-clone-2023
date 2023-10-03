@@ -10,6 +10,7 @@
 .status-bar__column {
   padding: 5px;
   width: 33.33%;
+  color: black;
 }
 
 .status-bar__column:first-child {

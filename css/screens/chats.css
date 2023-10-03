@@ -1,0 +1,15 @@
+.fa-commment-plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.fa-comment-plus-overlay {
+  background-color: white;
+  text-align: center;
+  position: absolute;
+  font-size: 15px;
+  right: -1px;
+  bottom: -1px;
+}

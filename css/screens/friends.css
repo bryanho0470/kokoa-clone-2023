@@ -3,12 +3,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30px;
+  height: 25px;
   margin: 5px var(--horizontal-margin);
-  color: rgba(0, 0, 0, 0.6);
+  margin-top: -15px;
 }
 
-.friends-display-link i {
-  color: rgba(0, 0, 0, 0.3);
-  padding: 0px 5px;
+.friends-display-link span {
+  margin: 0px 10px;
+  color: rgba(0, 0, 0, 0.8);
 }
