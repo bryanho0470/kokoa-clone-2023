@@ -1,0 +1,39 @@
+.user-component {
+  display: flex;
+  align-items: center;
+  margin: var(--horizontal-margin);
+}
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avatar--xl {
+  width: 65px;
+  height: 65px;
+  border-radius: 26px;
+  margin-right: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.user-component__avatar--sm {
+  width: 55px;
+  height: 55px;
+  border-radius: 22px;
+  margin-right: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.user-component__text {
+  display: block;
+}
+.user-component__title {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.user-component__subtitle {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
