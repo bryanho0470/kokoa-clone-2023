@@ -14,8 +14,15 @@
   height: 30px;
   align-items: center;
   color: black;
+  position: relative;
 }
 
-.screen-header__icons span {
+.screen-header__icons i {
   margin: 0px 10px;
+}
+
+.screen-header__gear {
+  position: absolute;
+  top: 0;
+  right: 0;
 }

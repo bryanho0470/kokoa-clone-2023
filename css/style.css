@@ -15,9 +15,14 @@
 @import "screens/loginscreen.css";
 @import "screens/friends.css";
 @import "screens/chats.css";
+@import "screens/finds.css";
 
 body {
   color: var(--grey);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main-screen {
+  margin: 0px var(--horizontal-margin);
 }
