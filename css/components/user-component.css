@@ -44,10 +44,19 @@
   margin: 2px 0px;
 }
 
+.user-component__column i {
+  color: black;
+  padding-right: 10px;
+}
+
 .user-component__subtitle {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.5);
   margin: 2px 0px;
+}
+
+.user-component__subtitle i {
+  color: rgb(192, 45, 45);
 }
 
 .user-component-time {

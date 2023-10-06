@@ -1,0 +1,47 @@
+.suggestion__title {
+  margin: 0px var(--horizontal-margin);
+  color: black;
+  font-weight: 600;
+}
+
+.suggestion__app {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px var(--horizontal-margin);
+}
+
+.suggestion__app img {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.suggestion__app span {
+  margin: 10px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.suggestion__app-kakaostory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.suggestion__app-kakaofriends {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.suggestion__app-friendsgem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

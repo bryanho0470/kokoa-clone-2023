@@ -11,12 +11,14 @@
 @import "components/channel-component.css";
 @import "components/badge.css";
 @import "components/openchat.css";
+@import "components/suggestion.css";
 
 /* Screens */
 @import "screens/loginscreen.css";
 @import "screens/friends.css";
 @import "screens/chats.css";
 @import "screens/finds.css";
+@import "screens/more.css";
 
 body {
   color: var(--grey);
@@ -25,5 +27,5 @@ body {
 }
 
 .main-screen {
-  margin: 0px var(--horizontal-margin);
+  margin: 40px var(--horizontal-margin) 0px var(--horizontal-margin);
 }
