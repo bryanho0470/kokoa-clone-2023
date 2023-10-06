@@ -1,6 +1,6 @@
 .friends-screen__channel {
   margin: 0px var(--horizontal-margin);
-  border-top: 1px solid var(--grey);
+  border-top: var(--main-border);
 }
 .friends-screen__channel--header {
   margin-top: 10px;
