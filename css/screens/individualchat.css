@@ -156,7 +156,6 @@
   width: 30px;
   height: 48px;
   border-radius: 5px;
-  border-style: ridge;
   border-bottom: 2px solid #9b9ea2;
   color: black;
   font-size: 25px;
@@ -170,7 +169,7 @@
 }
 
 .space {
-  width: 120px;
+  width: 140px;
 }
 
 .return {
