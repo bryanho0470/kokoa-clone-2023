@@ -54,10 +54,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 35px;
+  padding: 10px;
   background-color: white;
   border-radius: 10px;
+  border-top-left-radius: 0px;
   color: black;
   font-size: 15px;
 }
@@ -68,35 +68,18 @@
 }
 
 .individual-chat__ownchat {
-  margin: 25px 15px;
-  display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
-.individual-chat__ownchat-messagetime {
-  display: flex;
-  position: relative;
+.individual-chat__ownchat .individual-chat__otherchat-messagetime {
+  flex-direction: row-reverse;
 }
 
-.individual-chat__ownchat-messagetime span:first-child {
-  margin-top: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100px;
-  height: 35px;
+.individual-chat__ownchat span:first-child {
   background-color: var(--yellow);
-  border-radius: 10px;
-  color: black;
-  font-size: 15px;
-}
-
-.individual-chat__ownchat-messagetime span:last-child {
-  position: absolute;
-  color: rgba(0, 0, 0, 0.5);
-  bottom: 0px;
-  right: 110px;
-  font-size: 12px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0px;
+  margin-left: 5px;
 }
 
 .individual-key__top {
@@ -181,62 +164,15 @@
   background-color: white;
 }
 
-.individual-key__body-line3 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.individual-key__body-keys__specialkeyA {
-  margin: 0px 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.specialkey {
   width: 50px;
-  height: 48px;
-  border-radius: 5px;
-  border-style: ridge;
-  border-bottom: 2px solid #9b9ea2;
-  color: black;
-  font-size: 25px;
-  font-weight: 250;
   background-color: #abb1ba;
 }
 
-.individual-key__body-line4 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.space {
+  width: 120px;
 }
 
-.individual-key__body-keys__keySPACE {
-  margin: 0px 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 132px;
-  height: 48px;
-  border-radius: 5px;
-  border-style: ridge;
-  border-bottom: 2px solid #9b9ea2;
-  color: black;
-  font-size: 25px;
-  font-weight: 250;
-  background-color: white;
-}
-
-.individual-key__body-keys__specialkeyB {
-  margin: 0px 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100px;
-  height: 48px;
-  border-radius: 5px;
-  border-style: ridge;
-  border-bottom: 2px solid #9b9ea2;
-  color: black;
-  font-size: 25px;
-  font-weight: 250;
-  background-color: #abb1ba;
+.return {
+  width: 80px;
 }
