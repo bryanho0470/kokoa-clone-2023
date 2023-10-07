@@ -21,6 +21,7 @@
 @import "screens/finds.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/indivisualchat.css";
 
 body {
   color: var(--grey);

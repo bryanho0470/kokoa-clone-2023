@@ -1,0 +1,239 @@
+.indivisual-chat {
+  background-color: #abc1d0;
+  width: 100%;
+  height: 550px;
+  margin-top: -80px;
+}
+
+.indivisual-chat__datetime {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+}
+
+.indivisual-chat__datetime span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 35px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 250;
+  background-color: #92a4b2;
+}
+
+.indivisual-chat__otherchat {
+  margin: 25px 15px;
+  display: flex;
+}
+
+.indivisual-chat__otherchat img {
+  width: 30px;
+  height: 30px;
+  border-radius: 12px;
+}
+
+.indivisual-chat__otherchat-namemessage-align {
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.indivisual-chat__otherchat-name {
+  font-size: 14px;
+}
+.indivisual-chat__otherchat-messagetime {
+  display: flex;
+  position: relative;
+}
+
+.indivisual-chat__otherchat-messagetime span:first-child {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 35px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  font-size: 15px;
+}
+
+.indivisual-chat__otherchat-messagetime span:last-child {
+  position: absolute;
+  bottom: 0px;
+  left: 50px;
+  font-size: 12px;
+}
+
+.indivisual-chat__ownchat {
+  margin: 25px 15px;
+  display: flex;
+  justify-content: end;
+}
+
+.indivisual-chat__ownchat-messagetime {
+  display: flex;
+  position: relative;
+}
+
+.indivisual-chat__ownchat-messagetime span:first-child {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 35px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  color: black;
+  font-size: 15px;
+}
+
+.indivisual-chat__ownchat-messagetime span:last-child {
+  position: absolute;
+  color: rgba(0, 0, 0, 0.5);
+  bottom: 0px;
+  right: 110px;
+  font-size: 12px;
+}
+
+.indivisual-key__top {
+  margin: 5px 0px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.indivisual-key__top p {
+  color: black;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.indivisual-key__top span:first-child :first-child {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.indivisual-key__top span:nth-child(2) {
+  display: flex;
+  margin: 0px 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 100vh;
+  border-radius: 25px;
+  border: 1px solid var(--grey);
+}
+
+.indivisual-key__top-innericons {
+  display: flex;
+  align-items: center;
+}
+
+.indivisual-key__top-innericons i:first-child {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.indivisual-key__top-innericons i:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid #efd92c;
+  background-color: var(--yellow);
+  color: black;
+  font-size: 25px;
+  margin: 3px;
+}
+
+.indivisual-key__body {
+  width: 100%;
+  height: 240px;
+  background-color: #d1d4d9;
+}
+
+.indivisual-key__body-keys {
+  padding: 5px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indivisual-key__body-keys__key {
+  margin: 0px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 48px;
+  border-radius: 5px;
+  border-style: ridge;
+  border-bottom: 2px solid #9b9ea2;
+  color: black;
+  font-size: 25px;
+  background-color: white;
+}
+
+.indivisual-key__body-line3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.indivisual-key__body-keys__specialkeyA {
+  margin: 0px 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 48px;
+  border-radius: 5px;
+  border-style: ridge;
+  border-bottom: 2px solid #9b9ea2;
+  color: black;
+  font-size: 25px;
+  background-color: #abb1ba;
+}
+
+.indivisual-key__body-line4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.indivisual-key__body-keys__keySPACE {
+  margin: 0px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 132px;
+  height: 48px;
+  border-radius: 5px;
+  border-style: ridge;
+  border-bottom: 2px solid #9b9ea2;
+  color: black;
+  font-size: 25px;
+  background-color: white;
+}
+
+.indivisual-key__body-keys__specialkeyB {
+  margin: 0px 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 48px;
+  border-radius: 5px;
+  border-style: ridge;
+  border-bottom: 2px solid #9b9ea2;
+  color: black;
+  font-size: 25px;
+  background-color: #abb1ba;
+}

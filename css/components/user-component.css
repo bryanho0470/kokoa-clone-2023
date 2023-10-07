@@ -12,6 +12,7 @@
 
 .user-component__column:last-child {
   display: flex;
+  color: var(--grey);
   flex-direction: column;
   align-items: flex-end;
 }
