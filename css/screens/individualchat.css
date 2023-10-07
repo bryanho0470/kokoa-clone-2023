@@ -41,11 +41,12 @@
 }
 
 .individual-chat__otherchat-name {
+  display: block;
   font-size: 14px;
 }
 .individual-chat__otherchat-messagetime {
   display: flex;
-  position: relative;
+  align-items: flex-end;
 }
 
 .individual-chat__otherchat-messagetime span:first-child {
@@ -62,9 +63,7 @@
 }
 
 .individual-chat__otherchat-messagetime span:last-child {
-  position: absolute;
-  bottom: 0px;
-  left: 50px;
+  margin-left: 5px;
   font-size: 12px;
 }
 
