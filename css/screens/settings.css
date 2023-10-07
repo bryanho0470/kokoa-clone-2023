@@ -1,0 +1,99 @@
+.major-options {
+  margin: 15px;
+  font-size: 20px;
+  color: black;
+  font-weight: 300;
+}
+
+.major-options i {
+  margin-right: 10px;
+}
+
+.major-options__notice {
+  padding: 20px 5px;
+}
+
+.major-options__kakaolab {
+  padding: 20px 5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.major-options__version {
+  padding: 20px 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.major-options__version > span {
+  color: var(--grey);
+  font-weight: 300;
+}
+
+.major-divider {
+  padding-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.sub-options {
+  margin: 15px;
+  font-size: 20px;
+  color: black;
+  font-weight: 300;
+}
+
+.sub-options .badge {
+  margin-left: 5px;
+}
+
+.sub-options i {
+  margin-right: 10px;
+}
+
+.sub-options__privacy {
+  padding: 20px 5px;
+}
+
+.sub-options__notification {
+  padding: 20px 5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sub-options__friends {
+  padding: 20px 5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sub-options__chats {
+  padding: 20px 5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sub-options__display {
+  padding: 20px 5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.sub-options__themes {
+  padding: 20px 5px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sub-options__themes-left {
+  display: flex;
+  align-items: center;
+}
+
+.sub-options__themes > span {
+  color: var(--grey);
+  font-weight: 300;
+}
+
+.sub-options__call {
+  padding: 20px 5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

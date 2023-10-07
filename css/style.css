@@ -12,6 +12,7 @@
 @import "components/badge.css";
 @import "components/openchat.css";
 @import "components/suggestion.css";
+@import "components/alt-screen-header.css";
 
 /* Screens */
 @import "screens/loginscreen.css";
@@ -19,6 +20,7 @@
 @import "screens/chats.css";
 @import "screens/finds.css";
 @import "screens/more.css";
+@import "screens/settings.css";
 
 body {
   color: var(--grey);
@@ -28,4 +30,8 @@ body {
 
 .main-screen {
   margin: 40px var(--horizontal-margin) 0px var(--horizontal-margin);
+}
+
+a:visited {
+  color: black;
 }
