@@ -12,3 +12,28 @@
   margin: 0px 10px;
   color: rgba(0, 0, 0, 0.8);
 }
+
+@keyframes splashscreenHidden {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  color: #3c1e1e;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 110px;
+  animation: splashscreenHidden 0.5s ease-in-out forwards;
+  animation-delay: 2s;
+}

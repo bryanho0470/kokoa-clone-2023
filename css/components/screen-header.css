@@ -17,6 +17,19 @@
   position: relative;
 }
 
+@keyframes rotateGear {
+  from {
+    transform: rotateZ(360deg);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: rotateGear 1s linear 0.5s infinite;
+}
+
 .screen-header__icons i {
   margin: 0px 10px;
 }

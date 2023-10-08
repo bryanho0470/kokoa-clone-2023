@@ -64,6 +64,26 @@
   margin: 4px;
 }
 
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.3);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-chat__post-image:hover i {
+  will-change: transform;
+  animation: heartBeat 0.8s linear infinite;
+}
+
 .open-chat__post-image span i {
   margin-left: 8px;
   margin-right: 2px;
