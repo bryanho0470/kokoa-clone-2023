@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Individual Chats</title>
   </head>
-  <body>
+  <body id="individual-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No service</span>
@@ -67,18 +67,21 @@
           </div>
         </div>
       </div>
-      <div class="individual-key">
-        <div class="individual-key__top">
-          <span><i class="fa-regular fa-square-plus"></i></span>
-          <span>
-            <p>Hi!</p>
-            <div class="individual-key__top-innericons">
-              <i class="fa-regular fa-face-smile"></i>
-              <i class="fa-solid fa-arrow-up"></i>
-            </div>
-          </span>
+
+      <form class="reply__body">
+        <div class="reply__plusicon">
+          <i class="fa-regular fa-square-plus"></i>
         </div>
-        <div class="individual-key__body">
+        <div class="reply__inputbutton-border">
+          <input type="text" placeholder="Write reply" />
+          <i class="fa-regular fa-face-smile"></i>
+          <button class="reply__button">
+            <i class="fa-solid fa-arrow-up"></i>
+          </button>
+        </div>
+      </form>
+
+      <!-- <div class="individual-key__body">
           <div class="individual-key__body-line1">
             <div class="individual-key__body-keys">
               <div class="individual-key__body-keys__key">q</div>
@@ -144,8 +147,7 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div> -->
     </main>
 
     <div id="no-mobile">
